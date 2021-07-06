@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">BookDataFinder</string>
+    <string name="title_logo">E-Data Wiz</string>
+    <string name="title_home">Home</string>
+    <string name="title_serach">Search</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="title_login">Log in</string>
+    <string name="title_signup">Sign up</string>
+    <string name="title_logout">Log out</string>
+    <string name="title_changepassword">Change password</string>
+    <string name="title_register">Register</string>
+    <string name="title_payment">Payment</string>
+    <string name="title_pay">Pay</string>
+    <string name="title_gotogoogle">Go to Website</string>
+
+    <string name="email">Email</string>
+    <string name="confirm">Confirm</string>
+    <string name="change_password">Change password</string>
+
+    <string name="error_network_http_error">Bad response from server</string>
+    <string name="error_network">Not able to reach to server at this time. Please try again later.</string>
+    <string name="error_no_response">No data returned</string>
+    <string name="error_unknown">Unknown error occurred</string>
+
+    <string name="goto_hompage">http://161.117.229.20/</string>
+
+    <string name="message_back_again_to_exit">Please click BACK again to exit</string>
+    <string name="message_remember_me">Remember Me</string>
+    <string name="message_forget_password">Forget Password</string>
+    <string name="message_download_folder">Input download folder path</string>
+    <string name="message_enter_email">Enter your email</string>
+    <string name="message_enter_password">Please enter your password</string>
+    <string name="message_verify_password">Please enter your password correctly</string>
+    <string name="message_enter_oldpassword">Please enter your original password</string>
+    <string name="message_enter_card">Please enter your card info correctly</string>
+    <string name="message_login_succcess">Login is success</string>
+    <string name="message_signup_succcess">Signup is success</string>
+    <string name="message_changepwd_succcess">ChangePassword is success</string>
+
+    <string name="message_login_fail">Login is failed</string>
+    <string name="message_signup_fail">Signup is failed</string>
+    <string name="message_changepwd_fail">Changing password is failed</string>
+    <string name="message_checkout_fail">Getting Checkout data is failed</string>
+    <string name="message_card_register_fail">Registering card data is failed</string>
+    <string name="message_payment_charge_fail">Charging payment is failed</string>
+
+
+    <string name="message_payment_toread_pdf">You have to pay to read pdf file.</string>
+
+    <!--    android:text=""-->
+<!--    <string categoryname=""></string>-->
+<!--    <string categoryname=""></string>-->
+<!--    <string categoryname=""></string>-->
+<!--    <string categoryname=""></string>-->
+<!--    <string categoryname=""></string>-->
+<!--    <string categoryname=""></string>-->
+
+
+
+    <string-array name="string_array_alcohol">
+        <item>Vodka</item>
+        <item>Rum</item>
+        <item>Whiskey</item>
+        <item>Gin</item>
+        <item>Tequila</item>
+    </string-array>
+
+    <string-array name="string_array_coffee">
+        <item>Espresso</item>
+        <item>Macchiato</item>
+        <item>Cappuccino</item>
+        <item>Cafe Latte</item>
+        <item>Ristretto</item>
+    </string-array>
+
+    <string-array name="string_array_pasta">
+        <item>Carbonara</item>
+        <item>Capellini</item>
+        <item>Spaghetti</item>
+        <item>Gnocchi</item>
+        <item>Lasagnette</item>
+    </string-array>
+
+    <string-array name="string_array_cold_drinks">
+        <item>Cola</item>
+        <item>Lemonade</item>
+        <item>Citrus soda</item>
+        <item>Juice</item>
+        <item>Sparkling Water</item>
+    </string-array>
+
+    <string name="text_alcohol">Alcohol</string>
+    <string name="text_coffee">Coffee</string>
+    <string name="text_pasta">Pasta</string>
+    <string name="text_cold_drinks">Cold Drinks</string>
+    <string name="text_expanded">Expanded</string>
+    <string name="text_collapsed">Collapsed</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/layout_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <!--email-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_email"
+            android:layout_margin="@dimen/settings_padding"
+            android:padding="15dp"
+            android:background="@drawable/shape_round_edit"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="@dimen/settings_padding"
+            android:hint="Email"
+            android:windowSoftInputMode="stateAlwaysVisible"
+            />
+        <!--password-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_password"
+            android:layout_margin="@dimen/settings_padding"
+            android:padding="15dp"
+            android:background="@drawable/shape_round_edit"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="@dimen/settings_padding"
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--Remeber me-->
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chk_remember_me"
+                android:text="@string/message_remember_me"
+                android:layout_marginRight="@dimen/settings_padding"
+                android:layout_marginLeft="@dimen/settings_padding"
+                android:layout_marginBottom="@dimen/settings_padding"
+                android:textColor="@color/setting_border_color"
+                android:buttonTint="@color/setting_border_color"
+                android:checked="true"/>
+            <!--forgot password-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_forgotpassword"
+                android:text="@string/message_forget_password"
+                android:layout_marginRight="@dimen/settings_padding"
+                android:layout_marginLeft="@dimen/settings_padding"
+                android:layout_marginBottom="@dimen/settings_padding"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/setting_border_color"
+                android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+                android:drawablePadding="6dp"
+                android:padding="4dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/setting_divider_color" />
+        <!--login-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_login"
+            android:text="@string/title_login"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginTop="@dimen/settings_padding"
+            android:layout_marginRight="@dimen/settings_padding"
+            android:layout_marginLeft="@dimen/settings_padding"
+            android:layout_marginBottom="@dimen/settings_padding"
+            android:background="@drawable/shape_round_white"
+            />
+        <!--signup-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signup"
+            android:text="@string/title_signup"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginRight="@dimen/settings_padding"
+            android:layout_marginLeft="@dimen/settings_padding"
+            android:layout_marginTop="@dimen/settings_padding"
+            android:background="@drawable/shape_round_btn"
+            android:textColor="@color/colorBackground"/>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

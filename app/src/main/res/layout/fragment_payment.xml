@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+<!--email-->
+    <LinearLayout
+        android:id="@+id/layout_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:minHeight="?attr/height">
+        <TextView
+            android:id="@+id/tv_service"
+            android:drawablePadding="30dp"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/huge_text_size"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="15dp"
+            android:layout_marginRight="@dimen/settings_padding"
+            android:layout_marginLeft="@dimen/settings_padding"
+            android:layout_marginBottom="@dimen/settings_padding"
+            android:layout_marginTop="@dimen/settings_padding"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+        <com.stripe.android.view.CardMultilineWidget
+            android:id="@+id/card_multiline_widget"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/settings_padding"
+            android:layout_marginLeft="@dimen/settings_padding"
+            android:layout_marginBottom="@dimen/settings_padding"
+            android:layout_marginTop="@dimen/settings_padding"
+            android:layout_height="wrap_content"/>
+
+<!--        <com.paymentez.android.view.CardMultilineWidget-->
+<!--            android:dbid="@+dbid/card_multiline_widget"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:padding="15dp"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginRight="@dimen/settings_padding"-->
+<!--            android:layout_marginLeft="@dimen/settings_padding"-->
+<!--            android:layout_marginBottom="@dimen/settings_padding"-->
+<!--            android:layout_marginTop="@dimen/settings_padding"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--        <View-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="2dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:background="@color/setting_divider_color" />-->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_register"
+            android:text="@string/title_register"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/settings_padding"
+            android:background="@drawable/shape_round_btn"
+            android:textColor="@color/colorBackground"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_pay"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/settings_padding"
+            android:background="@drawable/shape_round_white"
+            android:visibility="invisible"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:dbid="@+dbid/btn_register"-->
+<!--        android:text="Payment register"-->
+<!--        android:shadowColor="@android:color/transparent"-->
+<!--        android:padding="15dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_marginTop="@dimen/settings_padding"-->
+<!--        android:background="@drawable/shape_round_btn"-->
+<!--        android:textColor="@color/colorBackground"/>-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

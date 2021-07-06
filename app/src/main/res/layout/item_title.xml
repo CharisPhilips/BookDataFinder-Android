@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/logo"-->
+<!--        android:layout_width="@dimen/logo_height"-->
+<!--        android:layout_height="@dimen/logo_height"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:src="@drawable/ic_ebook">-->
+<!--    </androidx.appcompat.widget.AppCompatImageView>-->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/settings_padding"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/title_logo"
+        android:textColor="@android:color/white"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/huge_text_size" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginLeft="@dimen/settings_padding"-->
+<!--        android:layout_toRightOf="@+id/logo"-->
+<!--        android:ellipsize="end"-->
+<!--        android:maxLines="1"-->
+<!--        android:text="@string/title_logo"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:autoSizeTextType="uniform"-->
+<!--        android:textSize="@dimen/huge_text_size" />-->
+</RelativeLayout>

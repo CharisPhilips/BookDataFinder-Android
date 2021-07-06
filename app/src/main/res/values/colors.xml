@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color categoryname="colorPrimary">#008577</color>-->
+<!--    <color categoryname="colorPrimaryDark">#00574B</color>-->
+<!--    <color categoryname="colorAccent">#D81B60</color>-->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#00BCD4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="tab_bottom_inactive_color">#40000000</color>
+    <color name="bg_tag_default">#7cd167</color>
+    <color name="splash_background_color">#5456e1</color>
+    <color name="setting_border_color">@android:color/holo_blue_dark</color>
+    <color name="setting_divider_color">@android:color/holo_blue_dark</color>
+    <color name="setting_tab_color">@android:color/darker_gray</color>
+    <color name="treeview_selected_color">#EAEAEA</color>
+    <color name="blackOlive">#39393F</color>
+    <color name="orange">#FEC500</color>
+    <color name="signupColor">#066e8a</color>
+    <color name="transparent">#80FFFFFF</color>
+
+</resources>

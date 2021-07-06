@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:icon="@drawable/ic_more_white_32dp"
+        android:title="Main Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/navigation_changepwd"
+                android:icon="@drawable/ic_changepwd_black32dp"
+                android:title="@string/title_changepassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <item
+                android:id="@+id/navigation_gotogoogle"
+                android:icon="@drawable/ic_google_black_32dp"
+                android:title="@string/title_gotogoogle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <item
+                android:id="@+id/navigation_logout"
+                android:icon="@drawable/ic_logout_black_32dp"
+                android:title="@string/title_logout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </menu>
+    </item>
+</menu>

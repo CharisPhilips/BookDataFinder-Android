@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/layout_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:minHeight="?attr/height">
+        <!--email-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_email"
+            android:layout_margin="@dimen/settings_padding"
+            android:padding="15dp"
+            android:background="@drawable/shape_round_edit"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="@dimen/settings_padding"
+            android:hint="@string/email" />
+        <!--password-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_password"
+            android:layout_margin="@dimen/settings_padding"
+            android:padding="15dp"
+            android:background="@drawable/shape_round_edit"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="@dimen/settings_padding"
+            android:hint="Password"
+            android:inputType="textPassword"
+            />
+        <!--repassword-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_repassword"
+            android:layout_margin="@dimen/settings_padding"
+            android:padding="15dp"
+            android:background="@drawable/shape_round_edit"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="@dimen/settings_padding"
+            android:hint="Retype Password"
+            android:inputType="textPassword"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--remember me-->
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chk_remember_me"
+                android:text="Remember Me"
+                android:layout_marginRight="@dimen/settings_padding"
+                android:layout_marginLeft="@dimen/settings_padding"
+                android:layout_marginBottom="@dimen/settings_padding"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/setting_border_color"
+                android:buttonTint="@color/setting_border_color"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <!--    divider-->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/setting_divider_color" />
+        <!--signup-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signup"
+            android:text="Sign Up"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginRight="@dimen/settings_padding"
+            android:layout_marginLeft="@dimen/settings_padding"
+            android:layout_marginBottom="@dimen/settings_padding"
+            android:layout_marginTop="@dimen/settings_padding"
+            android:background="@drawable/shape_round_btn"
+            android:textColor="@color/colorBackground"/>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
